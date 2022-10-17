@@ -34,7 +34,6 @@ class Browser:
     def close_browser(self):
         self.browser.close()
         
-    Automatically log into iZone (or any website) using Python & Selenium 4
     # function to type content into a field specified by arguments
     def add_input(self, by: By, value: str, text: str):
         field = self.browser.find_element(by=by, value=value)
